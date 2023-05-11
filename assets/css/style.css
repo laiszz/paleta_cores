@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+    /* Paleta de Cores */
+    --cor1: #FBFAFF;
+    --cor2: #F4EFFA;
+    --cor3: #EBD9FC;
+    --cor4: #D4BBFC;
+    --cor5: #9B72CF;
+    --cor6: #9667E0;
+    --cor7: #532B88;
+    --cor8: #2F184B;
+
+    /* Outras cores */
+    --borda: #ececec;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Lato', cursive;
+    cursor: default;
+}
+
+body {
+    background-color: white;
+}
+
+main {
+    height: 60vh;
+    margin: 10vh auto;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    width: 100vw;
+    margin: 0 auto;
+    padding-top: 10vh;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.copiar {
+    visibility: hidden;
+}
+
+.cor {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 50%;
+    
+    border: 1px solid var(--borda);
+    font-weight: 500;
+}
+
+#cor1 {
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+
+    background-color: var(--cor1);
+    border-right: none;
+}
+
+#cor2 {
+    background-color: var(--cor2);
+    border-left: none;
+    border-right: none;
+}
+
+#cor3 {
+    background-color: var(--cor3);
+    border-left: none;
+    border-right: none;
+}
+
+#cor4 {
+    background-color: var(--cor4);
+    border-left: none;
+    border-right: none;
+}
+
+#cor5 {
+    background-color: var(--cor5);
+    border-left: none;
+    border-right: none;
+    color: white;
+}
+
+#cor6 {
+    background-color: var(--cor6);
+    border-left: none;
+    border-right: none;
+    color: white;
+}
+
+#cor7 {
+    background-color: var(--cor7);
+    border-left: none;
+    border-right: none;
+    color: white;
+}
+
+#cor8 {
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+
+    background-color: var(--cor8);
+    border-left: none;
+    color: white;
+}
