@@ -7,5 +7,5 @@ function esconderTexto(id){
 }
 
 function copiar(id){
-    navigator.clipboard.writeText(document.querySelector(`#valor-${id}`).innerHTML);
+    navigator.clipboard.writeText(document.querySelector(`#valor-${id}`).innerHTML.trim());
 }
